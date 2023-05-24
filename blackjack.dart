@@ -95,7 +95,7 @@ void main() {
       sumDealer += addToDealerSum;
     } else if (sumDealer < 17) {
       sumDealer += addToDealerSum;
-    } 
+    }
 
     // see if the player wants a hit.
     print("Your card total is $sumPlayer. Do you want to hit. Type 'yes' or 'no'");
@@ -176,7 +176,7 @@ void main() {
 
   // decide who wins and print out output of the game to the console
   if (sumPlayer > 21 || (sumPlayer <= sumDealer) && (sumDealer <= 21)) {
-    print("You lost, loser!");
+    print("You lost!");
   } else {
     print("You won!");
   }
